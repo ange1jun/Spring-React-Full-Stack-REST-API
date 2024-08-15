@@ -1,29 +1,28 @@
 ## INDEX
 +  [Project Structure](#프로젝트-구조-(structure))
-+  [Frontend](#frontend)
-+  [Backend](#backend)
-   1.  [Spring-framework](###-1.-spring-framework,spring-framework-02),[Spring-framework-02](###-1.-spring-framework,spring-framework-02)
++  [Frontend](#프론트엔드(frontend))
++  [Backend](#백엔드(backend))
+   1.  [Spring-framework](#1.-spring-framework,spring-framework-02),[Spring-framework-02](#1.-spring-framework,spring-framework-02)
    2.  [Learn-springboot](###-2.-learn-springboot)
    3.  [Jpa-and-hibernate](#jpa-and-hibernate)
    4.  [Restful-web-services](#restful-web-services)
    5.  [Spring Security & OAuth (Google)](#spring-security--oauth-google)
    6. [Maven&Gradle and Docker build](#maven&gradle-and-docker-build)
    +  [Functional-programming](#functional-programming)
-+  [Testing](#testing)
++  [Testing](#테스팅(testing))
    -  [JUnit](#junit)
    -  [Mockito](#mockito)
 
-# **프로젝트 구조 (structure)**
-> **REST API Todo WebApp** </br>
+# 프로젝트 구조 (structure)
+> REST API Todo WebApp </br>
 > FE : todo -> React </br>
-> BE : todo -> Spring </br>
+> BE : todo -> Spring </br
 > DB : MySQL </br>
-+ IntelliJ, VS Code
-+ Java 17, 21
-+ Gradle, Maven
+  + IntelliJ, VS Code
+  + Java 17, 21
+  + Gradle, Maven
 
-
-# **프론트엔드(frontend)** 
+# 프론트엔드(frontend) 
 + todo 
   +  Todo Application 
   + Route using 'react-router-dom'
@@ -31,7 +30,7 @@
   + Security using *JWT*, *SpringSecurity*
   + **Form, DATE using Formik, momnet** 
 
-# **백엔드(backend)** 
+# 백엔드(backend)
 ### 1. Spring-framework,Spring-framework-02
   + helloworld: Spring Context, Use Bean App
   + game: 5 Java, 1 Interface (Simple Gamming App)
@@ -106,7 +105,7 @@
   + For eacy, Improve For
 
 
-# **테스팅(testing)** 
+# 테스팅(testing)
 ### 1. Junit (Unit Test Framework)
   + AssertTest
   + BeforeTest
