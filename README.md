@@ -9,7 +9,7 @@
    5.  [Spring Security & OAuth (Google)](#spring-security--oauth-google)
    6. [Maven&Gradle and Docker build](#maven&gradle-and-docker-build)
    +  [Functional-programming](#functional-programming)
-+  [Testing](#테스팅(testing))
++  [Testing](#-테스팅(testing))
    -  [JUnit](#junit)
    -  [Mockito](#mockito)
 
