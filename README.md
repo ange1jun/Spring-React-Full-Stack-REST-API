@@ -3,8 +3,8 @@
 +  [Project Structure](#project-structure)
 +  [Frontend](#frontend)
 +  [Backend](#backend)
-   1.  [Spring-framework](#spring-framework,),[Spring-framework-02](#spring-framework-02)
-   2.  [Learn-springboot](#learn-springboot)
+   1.  [Spring-framework](###-1.-spring-framework,spring-framework-02),[Spring-framework-02](###-1.-spring-framework,spring-framework-02)
+   2.  [Learn-springboot](###-2.-learn-springboot)
    3.  [Jpa-and-hibernate](#jpa-and-hibernate)
    4.  [Restful-web-services](#restful-web-services)
    5.  [Spring Security & OAuth (Google)](#spring-security--oauth-google)
@@ -14,7 +14,7 @@
    -  [JUnit](#junit)
    -  [Mockito](#mockito)
 
-## <span style="color:Green"> **Project Structure**
+# **프로젝트 구조 (structure)**
 > **REST API Todo WebApp** </br>
 > FE : todo -> React </br>
 > BE : todo -> Spring </br>
@@ -24,7 +24,7 @@
 + Gradle, Maven
 
 
-## <span style="color:Yellow"> **Frontend** 
+# **프론트엔드(frontend)** 
 + todo 
   +  Todo Application 
   + Route using 'react-router-dom'
@@ -32,8 +32,8 @@
   + Security using *JWT*, *SpringSecurity*
   + **Form, DATE using Formik, momnet** 
 
-## <span style="color:Yellow"> **Backend** 
-## 1. Spring-framework , Spring-framework-02
+# **백엔드(backend)** 
+### 1. Spring-framework,Spring-framework-02
   + helloworld: Spring Context, Use Bean App
   + game: 5 Java, 1 Interface (Simple Gamming App)
 
@@ -46,7 +46,7 @@
           g1: Jakarta CDI (Contexts & DI) 
           h1: XML Configurtaion
         
-## 2. Learn-springboot
+### 2. Learn-springboot
   + /src/main/resources
       - use Profiles (Multi application.properties)
   + /src/main (Springboot)
@@ -55,12 +55,12 @@
       - /target (Embedded Server)
       - Maven build
 
-## 3. Jpa-and-hibernate
+### 3. Jpa-and-hibernate
   + use H2 Console
   + use JDBC, Spring JDBC
   + use JPA, Spring Data JPA
 
-## 4. Restful-web-services
+### 4. Restful-web-services
   + improve POST method
   + Exception for all resource 
   + REST API Document 
@@ -75,7 +75,7 @@
   + Actuator (for production Monitoring)
   + HAL-Explorer (API Explorer)
   
-##  5. Spring Security & OAuth (Google) 
+###  5. Spring Security & OAuth (Google) 
   + Spring Security (**Gradle**)
     + **CSRF** (Croos Site Request Forgery) *disabled*
     + **CORS** (Cross Origin Resource Sharing)
@@ -89,29 +89,28 @@
       + Google Login
       + defaultSecurityFilterChain **Overriding**
   
-##  6. Spring AOP (Aspect Oriented Programming)
+###  6. Spring AOP (Aspect Oriented Programming)
   - Pointcut, Aspect, Advice
   - @After, @Before, @AfterReturning, @AfterThrowing, @Around
   - Custom Annotation (@TrackTime)
 
-##  7. Maven&Gradle and Docker Build
+###  7. Maven&Gradle and Docker Build
   - Maven & Gradle build
   - Maven & Gradle flow 
   - Build Dockerfile
   - Using Spring Boot Maven Plugin (Docker build)
 
-##  # Functional-programming
+###  # Functional-programming
   + Lambda Expression
   + .map
   + Optional Class
   + For eacy, Improve For
 
 
-## <span style="color:Yellow"> **Testing** <hr>
-
-## 1. Junit (Unit Test Framework)
+# **테스팅(testing)** 
+### 1. Junit (Unit Test Framework)
   + AssertTest
   + BeforeTest
   + AfterTest
-## 2. Mockito (Mocking Framework)
+### 2. Mockito (Mocking Framework)
   + Using Mock Annotation 
