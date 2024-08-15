@@ -9,7 +9,7 @@
    5.  [Spring Security & OAuth (Google)](#5-spring-security--oauth-google)
    6.  [Spring AOP (Aspect Oriented Programming)](#6-spring-aop-aspect-oriented-programming)
    7.  [Maven & Gradle and Docker Build](#7-maven--gradle-and-docker-build)
-   +  [Functional-programming](#functional-programming)
+   +  [Functional-programming](#-functional-programming)
 +  [테스팅 (testing)](#테스팅-testing)
    1.  [JUnit](#1-junit-unit-test-framework)
    2.  [Mockito](#2-mockito-mocking-framework)
@@ -23,7 +23,7 @@
   + Java 17, 21
   + Gradle, Maven
 
-# 프론트엔드(frontend) 
+# 프론트엔드 (frontend) 
 + todo 
   +  Todo Application 
   + Route using 'react-router-dom'
@@ -31,7 +31,7 @@
   + Security using *JWT*, *SpringSecurity*
   + **Form, DATE using Formik, momnet** 
 
-# 백엔드(backend)
+# 백엔드 (backend)
 ### 1. Spring-framework,Spring-framework-02
   + helloworld: Spring Context, Use Bean App
   + game: 5 Java, 1 Interface (Simple Gamming App)
@@ -105,7 +105,7 @@
   + Optional Class
   + For eacy, Improve For
 
-# 테스팅(testing)
+# 테스팅 (testing)
 ### 1. Junit (Unit Test Framework)
   + AssertTest
   + BeforeTest
