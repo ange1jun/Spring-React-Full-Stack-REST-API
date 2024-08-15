@@ -1,17 +1,18 @@
 ### <span style="color:RED">INDEX
 
-1. [Project Structure](#project-structure)
-2. [Frontend](#frontend)
-3. [Backend](#backend)
-   1. [Spring-framework](#spring-framework,),[Spring-framework-02](#spring-framework-02)
-   3. [Learn-springboot](#learn-springboot)
-   4. [Jpa-and-hibernate](#jpa-and-hibernate)
-   5. [Restful-web-services](#restful-web-services)
-   6. [Spring Security & OAuth (Google)](#spring-security--oauth-google)
-   7. [Functional-programming](#functional-programming)
-4. [Testing](#testing)
-   1. [JUnit](#junit)
-   2. [Mockito](#mockito)
++  [Project Structure](#project-structure)
++  [Frontend](#frontend)
++  [Backend](#backend)
+   1.  [Spring-framework](#spring-framework,),[Spring-framework-02](#spring-framework-02)
+   2.  [Learn-springboot](#learn-springboot)
+   3.  [Jpa-and-hibernate](#jpa-and-hibernate)
+   4.  [Restful-web-services](#restful-web-services)
+   5.  [Spring Security & OAuth (Google)](#spring-security--oauth-google)
+   6. [Maven&Gradle and Docker build](#maven&gradle-and-docker-build)
+   +  [Functional-programming](#functional-programming)
++  [Testing](#testing)
+   -  [JUnit](#junit)
+   -  [Mockito](#mockito)
 
 ## <span style="color:Green"> **Project Structure**
 > **REST API Todo WebApp** </br>
@@ -32,13 +33,10 @@
   + **Form, DATE using Formik, momnet** 
 
 ## <span style="color:Yellow"> **Backend** 
-## 1. Spring-framework 
-  + game: 4 Java, 1 Interface (Simple Gamming App)
+## 1. Spring-framework , Spring-framework-02
   + helloworld: Spring Context, Use Bean App
-## 2. Spring-framework-02
   + game: 5 Java, 1 Interface (Simple Gamming App)
 
-          
           a1: DepedencyInjection 
           b1: SimpleSpringContext 
           c1: SpringContext, Calculator App 
@@ -48,7 +46,7 @@
           g1: Jakarta CDI (Contexts & DI) 
           h1: XML Configurtaion
         
-## 3. Learn-springboot
+## 2. Learn-springboot
   + /src/main/resources
       - use Profiles (Multi application.properties)
   + /src/main (Springboot)
@@ -57,12 +55,12 @@
       - /target (Embedded Server)
       - Maven build
 
-## 4. Jpa-and-hibernate
+## 3. Jpa-and-hibernate
   + use H2 Console
   + use JDBC, Spring JDBC
   + use JPA, Spring Data JPA
 
-## 5. Restful-web-services
+## 4. Restful-web-services
   + improve POST method
   + Exception for all resource 
   + REST API Document 
@@ -77,7 +75,7 @@
   + Actuator (for production Monitoring)
   + HAL-Explorer (API Explorer)
   
-##  6. Spring Security & OAuth (Google) 
+##  5. Spring Security & OAuth (Google) 
   + Spring Security (**Gradle**)
     + **CSRF** (Croos Site Request Forgery) *disabled*
     + **CORS** (Cross Origin Resource Sharing)
@@ -90,17 +88,24 @@
   + OAuth2 Client
       + Google Login
       + defaultSecurityFilterChain **Overriding**
+  
+##  6. Spring AOP (Aspect Oriented Programming)
+  - Pointcut, Aspect, Advice
+  - @After, @Before, @AfterReturning, @AfterThrowing, @Around
+  - Custom Annotation (@TrackTime)
 
-##  6. Functional-programming
+##  7. Maven&Gradle and Docker Build
+  - Maven & Gradle build
+  - Maven & Gradle flow 
+  - Build Dockerfile
+  - Using Spring Boot Maven Plugin (Docker build)
+
+##  # Functional-programming
   + Lambda Expression
   + .map
   + Optional Class
   + For eacy, Improve For
-  
-##  7. Spring AOP (Aspect Oriented Programming)
-  - Pointcut, Aspect, Advice
-  - @After, @Before, @AfterReturning, @AfterThrowing, @Around
-  - Custom Annotation (@TrackTime)
+
 
 ## <span style="color:Yellow"> **Testing** <hr>
 
