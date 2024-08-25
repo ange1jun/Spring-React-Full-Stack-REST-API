@@ -9,16 +9,18 @@
    5.  [Spring Security & OAuth (Google)](#5-spring-security--oauth-google)
    6.  [Spring AOP (Aspect Oriented Programming)](#6-spring-aop-aspect-oriented-programming)
    7.  [Maven & Gradle and Docker Build](#7-maven--gradle-and-docker-build)
-   +  [Functional-programming](#-functional-programming)
+   8.  [AWS Deploy RESTAPI-FullStackApp](#AWS) </br>
+   #[Functional-programming](#-functional-programming)
 +  [테스팅 (testing)](#테스팅-testing)
    1.  [JUnit](#1-junit-unit-test-framework)
    2.  [Mockito](#2-mockito-mocking-framework)
 
 # 프로젝트 구조 (structure)
-> REST API Todo WebApp </br>
+> REST API Full Stack Todo WebApp </br>
 > FE : todo -> React </br>
-> BE : todo -> Spring </br
-> DB : MySQL </br>
+> BE : todo -> Spring </br>
+> DB : MySQL, H2(In Memory) </br>
+> Deploy : AWS EB(Back), S3(Front)
   + IntelliJ, VS Code
   + Java 17, 21
   + Gradle, Maven
@@ -60,6 +62,7 @@
   + use JPA, Spring Data JPA
 
 ### 4. Restful-web-services
+  + CRUD
   + improve POST method
   + Exception for all resource 
   + REST API Document 
@@ -98,6 +101,11 @@
   - Maven & Gradle flow 
   - Build Dockerfile
   - Using Spring Boot Maven Plugin (Docker build)
+
+### 08. AWS
+  - AWS Deploy (java, mysql, REST API, FullStackApps)
+  - IAM 2 roles
+  - Using EB(Elastic Beanstalk), S3
 
 ###  # Functional-programming
   + Lambda Expression
